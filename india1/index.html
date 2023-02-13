@@ -1,0 +1,367 @@
+<html>
+<head>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>my india</title>
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="icon"  href= "ind-iconn.jpeg">
+<style>
+*{
+margin:0; padding:0; box-sizing:border-box
+
+}
+header{
+background-image: url("india.jpg");
+width:100%;
+height:100vh;
+background-repeat: no-repeat;
+background-size:cover;
+}
+nav h1{
+transition:all .5s ease;
+}
+nav .menu a:first-child{
+color:white;
+background-color:green;
+}
+nav{
+width:100%; height:12vh;
+background-color:rgba(0,0,0,0.3);
+color:white;
+display:flex;
+justify-content:space-between;
+align-items:center; text-transform:uppercase;
+attachment:fixed;
+}
+nav .logo{
+padding:25px; text-align:center;
+}
+nav .menu{width
+display:flex;
+justify-content:space-around;
+}
+
+nav .menu a {
+padding:25px;
+text-decoration:none; width:white;
+font-weight:bold;
+}
+nav .menu a:hover{
+background:cyan;
+
+}
+main{
+width:100%;
+height:85vh;
+display:flex;
+justify-content:center; 
+align-item:center;
+text-align:center;
+}    
+section a{padding:10px 30px;
+border-redius:4px;
+outline:none;
+text-transform:uppercase;
+font-size:15px;
+font-weight:500;
+text-decoration:none;
+letter-spacing:1px
+transition:all .5s ease;
+}
+section h3{
+font-size:35px; font-weight:200;
+letter-spacing:3px;
+text-shadow:1px 1px 2px black;
+}
+section h1{
+margin:30px 0 20px 0;
+color:white;
+font-size:55px;
+font-weight:700;
+text-shadow:2px 1px 5px black;
+text-transform: uppercase;
+}
+section{
+margin:90px;
+padding:center;
+}
+section p{
+font-size:25px;
+word-spacing:2px;
+margin-bottom:25px;
+text-shadow:1px 1px 1px gray;
+}
+section .btn1{
+background-color:#fff;
+color:000;
+}
+section .btn2{
+background:white;
+color:black;
+}
+
+.btn1:hover{
+background:#00b894;
+color:white;
+font-size:20px; 
+}
+.btn2:hover{
+background-color:lightgreen;
+color:000;
+font-size:20px;
+}
+.change_content:after{
+content:'';
+animation:changetext 10s infinite linear;
+color:#00b894;
+}
+@keyframes changetext{
+0%{content:"Lucknow";}
+20%{content:"kushinagar";}
+35%{content:"Agra";}
+60%{content:"Ayodhya";}
+80%{content:"gorakhpur";}
+100%{content:"Varanasi";}
+}
+footer{
+margin:0; padding:0; box-sizing:border-box;
+display:flex;
+padding:15px; text-align:center;
+justify-content:space-around;
+background-color:orange;
+}
+.gallery{
+border:2px groove red ;
+}
+
+/*use footer to css*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+ {
+  display: flex;
+  background: #333;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-height: 100vh;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #3586ff;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("https://i.ibb.co/wQZVxxk/wave.png");
+  background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+</style>
+</head>
+<body>
+<header>
+<nav>
+<div class="logo"><img src="india.gif" width="100px" height="35px"><h1 class="animate__heartBeat">Mera Bharat</h1></div>
+<div class="menu">
+<a href="#">Home</a>
+<a href="#">Gallery</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+</div>
+</nav>
+<main>
+<section>
+<h3>Welcome To India</h3>
+<h1>DO Come & Visit <span class="change_content"></span></h1>
+<p>"India Once Is Not Enough"</p>
+<a href="https://www.bing.com/travel/place-information?q=India&SID" class="btn1" target="_blank">Learn more</a>
+<a href="file:///C:/Users/SAN/Downloads/RANJIT/signup.html" class="btn2">Signup Here</a>
+</section>
+</main>
+</header>
+<footer>
+<div class="gallery">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="varanasi.jpg" alt="Cinque Terre" width="210" height="200">
+  </a>
+  <div class="desc"><H3>Welcome To Varanasi</H3></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="ayodhya.jpg" alt="Forest" width="210" height="200">
+  </a>
+  <div class="desc"><H3>Welcome To Ayodhya</H3></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="kushinagar.jfif" alt="Northern Lights" width="210" height="200">
+  </a>
+  <div class="desc"><H3>Welcome To Kushinagar</H3></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="lucknow.jpeg" alt="Mountains" width="210" height="200">
+  </a>
+  <div class="desc"><H3>Welcome To Lucknow</H3></div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="tajm.jpg" alt="Mountains" width="210" height="200">
+  </a>
+  <div class="desc"><H3>Welcome to Agra</H3></div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="gorakhpur.jpeg" alt="Mountains" width="200" height="200">
+  </a>
+  <div class="desc"><H3>Welcome To Gorakhpur</H3></H3</div>
+</div>
+</footer>
+
+<!--use new footer-->
+<footer class="footer2">
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social-icon">
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+    
+    
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<p>Design Create BY Ranjit Chauarsiya 12-02-2023 | All Rights Reserved</p>
+</footer>
+</body>
+</html>
